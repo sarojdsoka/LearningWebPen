@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node unique_id="22" master_id="0" name="Intro to File Inclusions" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1751625657" ts_lastsave="1751627341">
+    <rich_text scale="h3">💡 </rich_text>
+    <rich_text scale="h3" weight="heavy">File Inclusion kya hota hai?</rich_text>
+    <rich_text>
+Kai web applications </rich_text>
+    <rich_text weight="heavy">URL ke parameter se file load</rich_text>
+    <rich_text> karte hain.
+Jaise:
+
+</rich_text>
+    <rich_text family="monospace">http://site.com/index.php?page=about
+</rich_text>
+    <rich_text>
+Yahan </rich_text>
+    <rich_text family="monospace">index.php</rich_text>
+    <rich_text> ke andar </rich_text>
+    <rich_text family="monospace">about.php</rich_text>
+    <rich_text> file ko include kiya jaa raha hai.
+Agar developer ne </rich_text>
+    <rich_text weight="heavy">input filtering</rich_text>
+    <rich_text> nahi ki, to hacker </rich_text>
+    <rich_text family="monospace">page</rich_text>
+    <rich_text> ke jagah </rich_text>
+    <rich_text weight="heavy">koi bhi file ka path de sakta hai</rich_text>
+    <rich_text> – jise server read kar leta hai. Isse hota hai </rich_text>
+    <rich_text weight="heavy">Local File Inclusion (LFI)</rich_text>
+    <rich_text>.
+
+</rich_text>
+    <rich_text scale="h3">🕵️‍♂️ </rich_text>
+    <rich_text scale="h3" weight="heavy">LFI se kya kya ho sakta hai?</rich_text>
+    <rich_text>
+1. </rich_text>
+    <rich_text weight="heavy">Source code leak</rich_text>
+    <rich_text> ho sakta hai. (jaise </rich_text>
+    <rich_text family="monospace">/etc/passwd</rich_text>
+    <rich_text>, </rich_text>
+    <rich_text family="monospace">.env</rich_text>
+    <rich_text>, config files)
+2. </rich_text>
+    <rich_text weight="heavy">Sensitive info</rich_text>
+    <rich_text> mil sakti hai (passwords, API keys)
+3. </rich_text>
+    <rich_text weight="heavy">Remote Code Execution (RCE)</rich_text>
+    <rich_text> bhi ho sakti hai – agar conditions match hui.
+4. Poora </rich_text>
+    <rich_text weight="heavy">server compromise</rich_text>
+    <rich_text> ho sakta hai!
+
+</rich_text>
+    <rich_text scale="h3" weight="heavy">Vulnerable Code Example (PHP)</rich_text>
+    <rich_text>
+
+</rich_text>
+    <rich_text family="monospace">if (isset($_GET['language'])) {
+    include($_GET['language']);  //Bina sanitize kiye, direct input use ho raha hai
+}
+</rich_text>
+    <rich_text>
+Agar koi URL likhe:
+</rich_text>
+    <rich_text family="monospace">http://site.com/index.php?language=../../../../etc/passwd
+</rich_text>
+    <rich_text>To </rich_text>
+    <rich_text family="monospace">passwd</rich_text>
+    <rich_text> file display ho jaayegi!
+</rich_text>
+    <rich_text scale="h3" weight="heavy">LFI bas PHP me nahi hota</rich_text>
+    <rich_text>
+Ye har language me ho sakta hai:
+• </rich_text>
+    <rich_text weight="heavy">PHP</rich_text>
+    <rich_text> </rich_text>
+    <rich_text family="monospace">include()</rich_text>
+    <rich_text>, </rich_text>
+    <rich_text family="monospace">require()</rich_text>
+    <rich_text>, </rich_text>
+    <rich_text family="monospace">file_get_contents()</rich_text>
+    <rich_text>¦
+
+• </rich_text>
+    <rich_text weight="heavy">NodeJS</rich_text>
+    <rich_text>  </rich_text>
+    <rich_text family="monospace">fs.readFile()</rich_text>
+    <rich_text>, </rich_text>
+    <rich_text family="monospace">res.render()</rich_text>
+    <rich_text>¦
+
+• </rich_text>
+    <rich_text weight="heavy">Java (JSP)</rich_text>
+    <rich_text> </rich_text>
+    <rich_text family="monospace">&lt;jsp:include&gt;</rich_text>
+    <rich_text>, </rich_text>
+    <rich_text family="monospace">&lt;c:import&gt;</rich_text>
+    <rich_text>¦
+
+• </rich_text>
+    <rich_text weight="heavy">.NET</rich_text>
+    <rich_text> </rich_text>
+    <rich_text family="monospace">Response.WriteFile()</rich_text>
+    <rich_text>, </rich_text>
+    <rich_text family="monospace">@Html.Partial()</rich_text>
+    <rich_text>, </rich_text>
+    <rich_text family="monospace">&lt;!--#include --&gt;</rich_text>
+    <rich_text>¦
+
+
+</rich_text>
+    <rich_text scale="h3">⚙️ </rich_text>
+    <rich_text scale="h3" weight="heavy">Read vs Execute ka kya matlab hai?</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+
+📌 Agar koi function file ko </rich_text>
+    <rich_text weight="heavy">execute bhi kar de</rich_text>
+    <rich_text>, to attacker code likh ke bhi chala sakta hai.
+
+
+
+</rich_text>
+    <table char_offset="1225" justification="left" col_min="600" col_max="600" col_widths="0,0,0,0" is_light="1">
+      <row>
+        <cell>include() PHP</cell>
+        <cell>✅</cell>
+        <cell>✅</cell>
+        <cell>✅</cell>
+      </row>
+      <row>
+        <cell>file_get_contents()</cell>
+        <cell>✅</cell>
+        <cell>❌</cell>
+        <cell>✅</cell>
+      </row>
+      <row>
+        <cell>fs.readFile() Node</cell>
+        <cell>✅</cell>
+        <cell>❌</cell>
+        <cell>❌</cell>
+      </row>
+      <row>
+        <cell>res.render() Node</cell>
+        <cell>✅</cell>
+        <cell>✅</cell>
+        <cell>❌</cell>
+      </row>
+      <row>
+        <cell>import JSP</cell>
+        <cell>✅</cell>
+        <cell>✅</cell>
+        <cell>✅</cell>
+      </row>
+      <row>
+        <cell>WriteFile() .NET</cell>
+        <cell>✅</cell>
+        <cell>❌</cell>
+        <cell>❌</cell>
+      </row>
+      <row>
+        <cell>&lt;!--#include--&gt; .NET</cell>
+        <cell>✅</cell>
+        <cell>✅</cell>
+        <cell>✅</cell>
+      </row>
+      <row>
+        <cell>Function</cell>
+        <cell>Read File 📖</cell>
+        <cell>Execute Code 🧠</cell>
+        <cell>Remote URL 🌍</cell>
+      </row>
+    </table>
+  </node>
+</cherrytree>

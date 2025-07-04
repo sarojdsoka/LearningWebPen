@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node unique_id="18" master_id="0" name="Focus" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1751624124" ts_lastsave="1751624567">
+    <rich_text scale="h2">🔍 </rich_text>
+    <rich_text scale="h2" weight="heavy">Focus kya hota hai?</rich_text>
+    <rich_text>
+Focus ka matlab hota hai:
+👉 </rich_text>
+    <rich_text weight="heavy">Ek hi kaam par apna pura dhyan lagana.</rich_text>
+    <rich_text>
+Baaki saari chize (soch, tension, distractions) dimaag se hata dena.
+Jaise tu jab HackTheBox ya TryHackMe chalata hai — aur ek machine crack karne mein ghus jaata hai — to tu bhool jaata hai ki phone pe koi notification aayi ya nahi.
+</rich_text>
+    <rich_text weight="heavy">Yahi hota hai real focus.</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text scale="h2">Real Life Example:</rich_text>
+    <rich_text>
+Log gym kyun jaate hai jab stress mein hote hain?
+Kyunki:
+• Workout karne se </rich_text>
+    <rich_text weight="heavy">"endorphins"</rich_text>
+    <rich_text> nikalte hai (happiness chemicals).
+• Body thak jaati hai, to dimag ko rest milta hai.
+• </rich_text>
+    <rich_text weight="heavy">Attention poora body ke movement pe chala jaata hai</rich_text>
+    <rich_text>, isliye stress waali soch automatically background mein chali jaati hai.
+• Dimag us stress ko apne aap process kar leta hai â€” bina tere actively sochne ke.
+</rich_text>
+    <rich_text scale="h2">🤯 Focus vs Attention — dono alag hai:</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text weight="heavy">Example</rich_text>
+    <rich_text>:
+• Agar tu bolta hai: "Keys kaha gyi?" ➜ Tera </rich_text>
+    <rich_text weight="heavy">focus</rich_text>
+    <rich_text> keys dhundhne par hai.
+• Agar tu bolta hai: "Main late ho gaya!" ➜ Tera </rich_text>
+    <rich_text weight="heavy">focus</rich_text>
+    <rich_text> time pe chala gaya, keys par nahi.
+</rich_text>
+    <rich_text scale="h2">Key Baatein:</rich_text>
+    <rich_text>
+• </rich_text>
+    <rich_text weight="heavy">Focus willpower se aata hai.</rich_text>
+    <rich_text> Tu decide karta hai ki kya important hai.
+• </rich_text>
+    <rich_text weight="heavy">Attention change hoti rehti hai</rich_text>
+    <rich_text> â€” ek second padhai, agle second phone ðŸ“±
+• </rich_text>
+    <rich_text weight="heavy">Focus wale log</rich_text>
+    <rich_text> zyada deep kaam karte hai, distractions se nahi darte.
+• Jab goal clear hota hai, to </rich_text>
+    <rich_text weight="heavy">focus bhi strong hota hai.</rich_text>
+    <rich_text>
+• Tu jitna focused rehega, utna </rich_text>
+    <rich_text weight="heavy">fast aur smartly apna goal achieve karega.</rich_text>
+    <rich_text>
+
+
+
+
+
+
+
+
+</rich_text>
+    <table char_offset="794" justification="left" col_min="600" col_max="600" col_widths="0,0">
+      <row>
+        <cell>Attention</cell>
+        <cell>Jo tu iss waqt dekh/sun/padh raha hai (live moment)</cell>
+      </row>
+      <row>
+        <cell>Focus</cell>
+        <cell>Tu kaunse kaam pe concentrated hai (goal-based)</cell>
+      </row>
+      <row>
+        <cell>🔸 Term</cell>
+        <cell>🔍 Meaning (Asaan bhaasha mein)</cell>
+      </row>
+    </table>
+  </node>
+</cherrytree>

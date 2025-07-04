@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node unique_id="19" master_id="0" name="Attention" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1751624567" ts_lastsave="1751624879">
+    <rich_text scale="h2" weight="heavy">Attention kya hoti hai?</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text weight="heavy">Attention</rich_text>
+    <rich_text> matlab
+</rich_text>
+    <rich_text style="italic">Kisi cheez par dhyan dena taaki usse kuch important baat samajh sakein ya data le sakein.</rich_text>
+    <rich_text>
+Jaise:
+• Jab tu kisi YouTube video ko dhyan se dekhta hai kyunki vo tere kaam ki hai, to tu attention de raha hai.
+• Jab tu kisi boring cheez ko dekhta hai, par soch aur dhyan bhatak jaata hai matlab attention toot gayi. 
+</rich_text>
+    <rich_text scale="h2">⚙️ Attention kaam kaise karti hai?</rich_text>
+    <rich_text>
+Attention ko bahut cheezein control karti hain:
+• Tere </rich_text>
+    <rich_text weight="heavy">interest</rich_text>
+    <rich_text> (jo tujhe pasand hai)
+• Teri </rich_text>
+    <rich_text weight="heavy">need</rich_text>
+    <rich_text> (jo tujhe chahiye)
+• Tera </rich_text>
+    <rich_text weight="heavy">goal</rich_text>
+    <rich_text> (jo tujhe achieve karna hai)
+• Tera </rich_text>
+    <rich_text weight="heavy">mood</rich_text>
+    <rich_text> (jaise relaxed ya tension mein)
+• Tera </rich_text>
+    <rich_text weight="heavy">experience</rich_text>
+    <rich_text> (past knowledge ya skills)
+Agar tujhe kisi topic mein naturally interest hai (jaise hacking/infosec), to attention automatically ban jaati hai.
+
+</rich_text>
+    <rich_text scale="h2">Attention vs Concentration vs Focus Confuse mat ho:</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+
+
+
+
+
+</rich_text>
+    <table char_offset="805" justification="left" col_min="600" col_max="600" col_widths="0,0">
+      <row>
+        <cell>Attention</cell>
+        <cell>Iss moment mein kis cheez pe tera dhyan hai</cell>
+      </row>
+      <row>
+        <cell>Concentration</cell>
+        <cell>Usi cheez pe dhyan banaye rakhna</cell>
+      </row>
+      <row>
+        <cell>Focus</cell>
+        <cell>Lambe samay tak us goal pe kaam karna jiska result tu chaahta hai</cell>
+      </row>
+      <row>
+        <cell>Concept</cell>
+        <cell>Easy Meaning</cell>
+      </row>
+    </table>
+  </node>
+</cherrytree>
