@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node unique_id="16" master_id="0" name="Documentation" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1751623137" ts_lastsave="1751623810">
+    <rich_text scale="h2">Documentation ke 3 Main Pillars:</rich_text>
+    <rich_text>
+1. </rich_text>
+    <rich_text weight="heavy">Overview</rich_text>
+    <rich_text> – Samjhao ki test ka goal kya tha.
+2. </rich_text>
+    <rich_text weight="heavy">Structure</rich_text>
+    <rich_text> – Step-by-step flow hona chahiye.
+3. </rich_text>
+    <rich_text weight="heavy">Clarity</rich_text>
+    <rich_text> – Bina confusion ke, clean aur clear language ho.
+</rich_text>
+    <rich_text scale="h2">Tools Jo Use Kar Sakte Hain:</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+
+</rich_text>
+    <rich_text scale="h3">✅ </rich_text>
+    <rich_text scale="h3" weight="heavy">2) Structure kaise hoti hai:</rich_text>
+    <rich_text>
+plaintext
+CopyEdit
+</rich_text>
+    <rich_text family="monospace">[Title Page]
+↓
+[Executive Summary] – non-technical overview
+↓
+[Scope &amp; Objectives] – kya test kiya gaya, boundaries kya thi
+↓
+[Testing Methodology] – Black-box/White-box, tools
+↓
+[Vulnerability Details] – har bug ka detail + impact + proof
+↓
+[Remediation] – kaise fix karein
+↓
+[Conclusion] – kya mila, kya karna chahiye
+↓
+[Appendix] – screenshots, commands, payloads
+</rich_text>
+    <rich_text>
+</rich_text>
+    <table char_offset="217" justification="left" col_min="600" col_max="600" col_widths="0,0">
+      <row>
+        <cell>CherryTree</cell>
+        <cell>Notes + screenshots + links sab store karne ke liye ek tree-style note-taking app</cell>
+      </row>
+      <row>
+        <cell>FlameShot</cell>
+        <cell>Screenshot lene ke liye  arrows, highlights, blur features ke saath</cell>
+      </row>
+      <row>
+        <cell>KeepNote, Joplin, Obsidian</cell>
+        <cell>(Alternatives agar chahiyo)</cell>
+      </row>
+      <row>
+        <cell>Tool</cell>
+        <cell>Kaam</cell>
+      </row>
+    </table>
+  </node>
+</cherrytree>

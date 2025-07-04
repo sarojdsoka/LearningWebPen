@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node unique_id="10" master_id="0" name="Way Of Learning" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1751559538" ts_lastsave="1751559566">
+    <rich_text>
+</rich_text>
+    <rich_text scale="h2"> </rich_text>
+    <rich_text scale="h2" weight="heavy">Ye text kya keh raha hai?</rich_text>
+    <rich_text>
+
+</rich_text>
+    <rich_text scale="h3">1. </rich_text>
+    <rich_text scale="h3" weight="heavy">Learning is Pattern-Based (हम वैसे ही सोचते हैं जैसे सिखाया गया है):</rich_text>
+    <rich_text>
+• Jaise math ka example:
+ </rich_text>
+    <rich_text family="monospace">20 * ____ + ____ = 65535</rich_text>
+    <rich_text>
+ Hum isko waise hi solve karte hain jaise hume school mein sikhaya gaya tha. Matlab humari soch ek </rich_text>
+    <rich_text weight="heavy">pattern</rich_text>
+    <rich_text> follow karti hai.
+
+• Lekin hacker mindset ya penetration testing mein, agar hum </rich_text>
+    <rich_text weight="heavy">boxed thinking</rich_text>
+    <rich_text> (limited soch) mein fas gaye, to hum problems solve nahi kar paayenge.
+
+
+
+</rich_text>
+    <rich_text scale="h3">2. </rich_text>
+    <rich_text scale="h3" weight="heavy">Think "Outside the Box" (हदों के बाहर सोचना सीखो):</rich_text>
+    <rich_text>
+◇ Hacker mindset matlab: </rich_text>
+    <rich_text weight="heavy">alag nazariye se dekhna.</rich_text>
+    <rich_text>
+
+◇ Jo cheezein samajh nahi aati, unko samajhne ke liye </rich_text>
+    <rich_text weight="heavy">naye tareeke</rich_text>
+    <rich_text>, naye tools aur naye angles se sochna padta hai.
+
+◇ Ye flexibility </rich_text>
+    <rich_text weight="heavy">pivoting</rich_text>
+    <rich_text> kehlaata hai – ek jagah se doosri jagah smartly move karna based on the situation.
+
+
+
+</rich_text>
+    <rich_text scale="h3">3. </rich_text>
+    <rich_text scale="h3" weight="heavy">Problem is Emotional, Not Logical (Problem ek feeling hoti hai):</rich_text>
+    <rich_text>
+◇ Jab hum kisi cheez ko nahi samajhte, hum frustrate hote hain.
+
+◇ Lekin technically, wo </rich_text>
+    <rich_text weight="heavy">sirf ek situation hoti hai</rich_text>
+    <rich_text>, problem humare </rich_text>
+    <rich_text weight="heavy">emotional reaction</rich_text>
+    <rich_text> ki wajah se banti hai.
+
+◇ Agar hum emotionally positive hain, goal pe focus hai, to hum zyada seekh paate hain.
+
+
+
+</rich_text>
+    <rich_text scale="h3">4. </rich_text>
+    <rich_text scale="h3" weight="heavy">Goal Clarity is Everything (Goal pata hai to raste mil jaate hain):</rich_text>
+    <rich_text>
+◇ Ek example diya gaya:
+▪ Agar instructor bole: </rich_text>
+    <rich_text weight="heavy">"move karo"</rich_text>
+    <rich_text> – aur rasta mein chair aayi to ho sakta hai hum </rich_text>
+    <rich_text weight="heavy">baith jaayein</rich_text>
+    <rich_text>.
+
+▪ Lekin agar instructor bole: </rich_text>
+    <rich_text weight="heavy">"corner tak jao"</rich_text>
+    <rich_text>, aur beech mein chair aaye, to hum us chair ko </rich_text>
+    <rich_text weight="heavy">cross karke goal tak pahuchne ki koshish karte hain</rich_text>
+    <rich_text>.
+
+
+
+◇ Matlab: </rich_text>
+    <rich_text weight="heavy">Goal clear hoga to obstacle se rukenge nahi.</rich_text>
+    <rich_text>
+
+
+
+</rich_text>
+    <rich_text scale="h3">✅ </rich_text>
+    <rich_text scale="h3" weight="heavy">Conclusion:</rich_text>
+    <rich_text>
+◇ Sochne ka tareeka seekhna hai, na keval knowledge ya tools.
+
+◇ Emotional control aur goal clarity bohot zaroori hai.
+
+◇ Agar goal nahi hoga, to hum ek topic se doosre topic par bhatak jaayenge bina kuch achieve kiye.
+</rich_text>
+  </node>
+</cherrytree>

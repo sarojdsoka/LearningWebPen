@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node unique_id="11" master_id="0" name="Learning Efficiancy" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1751559604" ts_lastsave="1751559807">
+    <rich_text scale="h3" weight="heavy">1. InfoSec field bohot bada hai ‚Äď aur isi wajah se log confuse ho jaate hain.</rich_text>
+    <rich_text>
+• Topics bohot saare hain: Networking, Linux, Web, Reverse Engineering, Malware, etc.
+
+• Sab kuch </rich_text>
+    <rich_text weight="heavy">technical</rich_text>
+    <rich_text> hota hai, aur wo </rich_text>
+    <rich_text weight="heavy">zaroori bhi hai</rich_text>
+    <rich_text> ‚Äď lekin samasya hai:
+ ‚Üí </rich_text>
+    <rich_text weight="heavy">Itna sab kaise seekhen? Kaise handle karein? Kya pehle karein, kya baad mein?</rich_text>
+    <rich_text>
+
+
+
+</rich_text>
+    <rich_text scale="h3" weight="heavy">2. Real problem: Information overload nahi, balki unhe structure karna hai.</rich_text>
+    <rich_text>
+◇ Jab tak hume ye clear nahi hota:
+▪ Mujhe kya aata hai?
+
+▪ Mujhe kya nahi aata?
+
+▪ Mujhe kya chahiye?
+
+
+Tab tak hume mile huye resources ka koi faida nahi hoga.
+
+
+
+</rich_text>
+    <rich_text scale="h3" weight="heavy">3. Seekhne ka best tareeka: Pehle Fail karo!</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text weight="heavy">‚ÄúFailure is experience in disguise.‚ÄĚ</rich_text>
+    <rich_text>
+◇ Jaise ek student engine banana seekhna chahta hai.
+
+◇ Agar wo sirf theory padhta rahe to use actual engine samajh nahi aayega.
+
+◇ Jab tak </rich_text>
+    <rich_text weight="heavy">khud haath nahi lagayega</rich_text>
+    <rich_text>, jab tak </rich_text>
+    <rich_text weight="heavy">galtiyan nahi karega</rich_text>
+    <rich_text>, wo nahi seekh sakta.
+
+◇ Jab instructor ke sath guidance milti hai + practical try karta hai ‚Üí </rich_text>
+    <rich_text weight="heavy">Tab real understanding hoti hai.</rich_text>
+    <rich_text>
+
+
+
+</rich_text>
+    <rich_text scale="h3" weight="heavy">4. Academy ka aim hai ki:</rich_text>
+    <rich_text>
+◇ Tujhe sirf tools na sikhaye, balki:
+▪ </rich_text>
+    <rich_text weight="heavy">Seekhne ka tareeka sikhaye</rich_text>
+    <rich_text>
+
+▪ </rich_text>
+    <rich_text weight="heavy">Information structure karna sikhaye</rich_text>
+    <rich_text>
+
+▪ </rich_text>
+    <rich_text weight="heavy">Research karna sikhaye</rich_text>
+    <rich_text>
+
+▪ </rich_text>
+    <rich_text weight="heavy">Jo confusion hoti hai, uska overview banana sikhaye</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text scale="h2" weight="heavy">To be ‚ÄúGood‚ÄĚ in InfoSec:</rich_text>
+    <rich_text>
+‚ÄúAchha hone ka matlab hai: Tu janta hai ki tu kya kar raha hai.‚ÄĚ
+◇ Jise experience hota hai, wo confident hota hai.
+
+◇ Experience aata hai: </rich_text>
+    <rich_text weight="heavy">practice + sochne ki aadat + association se.</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text scale="h2" weight="heavy">Kitni practice chahiye? 10,000 hours ya 20 hours?</rich_text>
+    <rich_text>
+◇ Malcolm Gladwell ka ‚Äú10,000 Hour Rule‚ÄĚ kehta hai:
+Kisi bhi cheez mein master banne ke liye 10,000 hours chahiye.
+
+◇ Lekin Josh Kaufman kehta hai:
+Kisi bhi naye skill ko </rich_text>
+    <rich_text weight="heavy">"achhe level"</rich_text>
+    <rich_text> tak le jaane ke liye sirf </rich_text>
+    <rich_text weight="heavy">20 hours</rich_text>
+    <rich_text> ki focused practice kaafi hai. (jaise 45 min/day ke hisaab se ~1 month)
+
+</rich_text>
+    <rich_text scale="h3" weight="heavy">Pareto Principle (80/20 Rule):</rich_text>
+    <rich_text>
+20% effort ‚Üí 80% results
+ 80% effort ‚Üí baaki 20% perfection
+◇ Ye rule batata hai ki </rich_text>
+    <rich_text weight="heavy">focus karke thoda effort bhi bohot kaam kar jaata hai.</rich_text>
+    <rich_text>
+
+◇ Smart learning &gt;&gt;&gt; Hard learning.
+</rich_text>
+    <rich_text scale="h2" weight="heavy">Active vs Passive Learning (Learning Pyramid)</rich_text>
+    <rich_text>
+Tu jab cheezein seekhta hai, to uske </rich_text>
+    <rich_text weight="heavy">levels</rich_text>
+    <rich_text> hote hain.
+ </rich_text>
+    <rich_text weight="heavy">Learning Pyramid</rich_text>
+    <rich_text> ek model hai jo batata hai ki kaunsa learning method kitna effective hota hai
+ </rich_text>
+    <rich_text scale="h3" weight="heavy">Optional Exercise: Learning Pyramid ka overview banana hai</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text scale="h2">Yeh steps follow kar:</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text scale="h3" weight="heavy">Step 1: Research karo ‚ÄúLearning Pyramid‚ÄĚ ke baare mein</rich_text>
+    <rich_text>
+Use Google ya trusted sites jaise:
+◇ learningpyramid.org
+
+◇ educational websites
+
+◇ TED Talks
+
+◇ Images search ‚Üí ‚ÄúLearning pyramid chart‚ÄĚ
+</rich_text>
+    <rich_text scale="h3" weight="heavy">Step 2: Overview banao</rich_text>
+    <rich_text>
+Chart jaisa overview banao (mai teri help kar sakti hoon bana ke):
+
+</rich_text>
+    <rich_text scale="h4">Learning Pyramid ke Levels:</rich_text>
+    <rich_text>
+(Top ‚Üí Least effective | Bottom ‚Üí Most effective)
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text scale="h3" weight="heavy">Step 3: Apna Research kaise kiya, wo likh</rich_text>
+    <rich_text>
+Jaise:
+◇ Maine Google pe search kiya ‚ÄúLearning Pyramid explained‚ÄĚ
+
+◇ Maine 3 alag sites padhi
+
+◇ Fir maine ek table banaya jisme retention levels likhe
+
+◇ Mujhe samajh aaya ki jab mai kisi ko sikhata hoon to mujhe khud bhi sabse zyada yaad rehta hai.
+</rich_text>
+    <rich_text scale="h2">Summary:</rich_text>
+    <rich_text>
+Tujhe bohot zyada time nahi dena, </rich_text>
+    <rich_text weight="heavy">smartly aur consistently kaam karna hai</rich_text>
+    <rich_text>.
+ Pehle fail kar, fir seekh.
+ Jab tu khud kisi concept ko kisi aur ko samjha sake, </rich_text>
+    <rich_text weight="heavy">tab tu expert ban raha hai</rich_text>
+    <rich_text>.
+</rich_text>
+    <table char_offset="2629" justification="left" col_min="60" col_max="60" col_widths="0,0">
+      <row>
+        <cell>Lecture</cell>
+        <cell>5%</cell>
+      </row>
+      <row>
+        <cell>Reading</cell>
+        <cell>10%</cell>
+      </row>
+      <row>
+        <cell>Audio-Visual</cell>
+        <cell>20%</cell>
+      </row>
+      <row>
+        <cell>Demonstration</cell>
+        <cell>30%</cell>
+      </row>
+      <row>
+        <cell>Group Discussion</cell>
+        <cell>50%</cell>
+      </row>
+      <row>
+        <cell>Practice by Doing</cell>
+        <cell>75%</cell>
+      </row>
+      <row>
+        <cell>Teaching Others / Immediate Use</cell>
+        <cell>90%</cell>
+      </row>
+      <row>
+        <cell>Method</cell>
+        <cell>Average Retention</cell>
+      </row>
+    </table>
+  </node>
+</cherrytree>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node unique_id="14" master_id="0" name="The Goal" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1751621199" ts_lastsave="1751622136">
+    <rich_text scale="h2" weight="heavy">Goal ka asli matlab kya hota hai?</rich_text>
+    <rich_text>
+“Goal = Future ka ek aisa state jo tu chahta hai aur jiske liye tu consciously mehnat karne ke liye ready hai.”
+• Goal koi vague khayal nahi hota.
+• </rich_text>
+    <rich_text weight="heavy">Ye ek clear, measurable aur desirable destination hoti hai.</rich_text>
+    <rich_text>
+• Agar tu clearly nahi bata sakta:
+“Main ye kar paaya to meri goal puri ho gayi,”
+ To wo abhi goal nahi hai, </rich_text>
+    <rich_text weight="heavy">sirf ek vague sapna hai</rich_text>
+    <rich_text>.
+</rich_text>
+    <rich_text scale="h2">🧪 </rich_text>
+    <rich_text scale="h2" weight="heavy">2. Goals ke types hote hain:</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text scale="h2"> </rich_text>
+    <rich_text scale="h2" weight="heavy">3. Model choose karna mushkil hota hai</rich_text>
+    <rich_text>
+• Market mein dozens of goal-setting models hain:
+◇ SMART goals
+◇ OKRs
+◇ WOOP, etc.
+• Sabka focus alag hota hai.
+• Lekin dikkat ye hai:
+ </rich_text>
+    <rich_text weight="heavy">Jo model comfortable lage, wo effective nahi bhi ho sakta.</rich_text>
+    <rich_text>
+◇ Har model try karna â†’ time consuming
+◇ Jo effective ho, wo uncomfortable bhi lag sakta hai.
+◇ </rich_text>
+    <rich_text scale="h3">Research ne bataya:</rich_text>
+    <rich_text>
+Jo log </rich_text>
+    <rich_text weight="heavy">specific + challenging goals</rich_text>
+    <rich_text> rakhte hain, wo 90% cases mein zyada successful hote hain.
+</rich_text>
+    <rich_text scale="h2" weight="heavy">4. Tera goal hi tera raasta define karta hai</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+Agar tu sirf solution copy karega, bina khud ke soch se, to:
+• </rich_text>
+    <rich_text weight="heavy">Brain ke neurons link nahi banayenge</rich_text>
+    <rich_text>
+• Aur tu real learning se vanchit rahega
+</rich_text>
+    <rich_text scale="h2" weight="heavy">Kisi aur ka rasta tere liye fix nahi hota</rich_text>
+    <rich_text>
+Agar kisi aur ne ek rasta follow karke success payi,
+ zaroori nahi ki tu bhi wahi follow kare.
+• Har hacker ka journey alag hota hai.
+• Agar tu “ladder use nahi karna jaanta,” iska matlab ye nahi ki tu chhat tak nahi pahuch sakta — tu </rich_text>
+    <rich_text weight="heavy">rope bhi use kar sakta hai</rich_text>
+    <rich_text>, </rich_text>
+    <rich_text weight="heavy">jump bhi kar sakta hai</rich_text>
+    <rich_text>, ya </rich_text>
+    <rich_text weight="heavy">wall climb bhi kar sakta hai</rich_text>
+    <rich_text>.
+
+
+
+
+
+
+
+</rich_text>
+    <table char_offset="408" justification="left" col_min="600" col_max="600" col_widths="0,0">
+      <row>
+        <cell>Quantitative</cell>
+        <cell>“Mujhe 90% score chahiye.”</cell>
+      </row>
+      <row>
+        <cell>Qualitative</cell>
+        <cell>“Mujhe confident feel karna hai jab main hacking karu.”</cell>
+      </row>
+      <row>
+        <cell>Main Goal</cell>
+        <cell>“Certified Penetration Tester banna hai.”</cell>
+      </row>
+      <row>
+        <cell>Secondary Goal</cell>
+        <cell>“Burp Suite master karna hai.”</cell>
+      </row>
+      <row>
+        <cell>Competing Goal</cell>
+        <cell>“Time bhi bachana hai, deep bhi seekhna hai.”</cell>
+      </row>
+      <row>
+        <cell>Type</cell>
+        <cell>Example</cell>
+      </row>
+    </table>
+    <table char_offset="904" justification="left" col_min="600" col_max="600" col_widths="0,0">
+      <row>
+        <cell>â€śMujhe certification chahiyeâ€ť</cell>
+        <cell>Sabse easy tareeka dhundega</cell>
+      </row>
+      <row>
+        <cell>â€śMujhe samajhna hai deeplyâ€ť</cell>
+        <cell>Sochne lagega, galti karega, learn karega</cell>
+      </row>
+      <row>
+        <cell>Goal</cell>
+        <cell>Learning Behavior</cell>
+      </row>
+    </table>
+  </node>
+</cherrytree>

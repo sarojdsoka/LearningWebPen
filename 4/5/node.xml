@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node unique_id="5" master_id="0" name="HacketheBox" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1751550856" ts_lastsave="1751554058">
+    <rich_text scale="h1">1. Learning Progress</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text scale="h1">2. Linux Fundamentals</rich_text>
+  </node>
+</cherrytree>
