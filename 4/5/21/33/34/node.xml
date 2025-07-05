@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node unique_id="34" master_id="0" name="chelenge" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1751726221" ts_lastsave="1751729462">
+    <rich_text>mai ano chelenge solve karva ni try kari an mai 
+
+1st payload run karyo 
+je simple chhe je mane hackthebox ma aplo hoi chhe
+
+php://filter/read=convert.base64-encode/resource=[filename]
+
+</rich_text>
+    <rich_text link="webs http://94.237.54.192:31646/index.php?language=php://filter/read=convert.base64-encode/resource=en">http://94.237.54.192:31646/index.php?language=php://filter/read=convert.base64-encode/resource=en</rich_text>
+    <rich_text>
+
+
+aa url no akho matlb mane samjano ke aa payload kare chhe su 
+
+pela apde to check karyu ke php ma webapp baneli che ane ena pachi apde tene command lakhyo jemke 
+
+php://filter/read=convert.base64-encode/resource=[ahiya jete file lagu padti hoi te avse ane te ni apde php file banaviye che ane command execute kariye chhe
+jya filter no matlb mane nathi khabar pn read no matlabke read karvu =⇒ jete file apde lagu padti hoi te matalb 
+
+
+</rich_text>
+    <rich_text link="webs http://x.x.x.x//lama.com//index.php?object=[jete]file">http://x.x.x.x//lama.com//index.php?object=[jete]file</rich_text>
+    <rich_text>] 
+ ena pachi apde payload try karvani 
+ 
+ http;//x.x.x.x//index.php?object=php://filter/read=convert.base64-encode/resource=[jetefile] ama dhyan rakhvu jete file mai eej file avi jove je server ma running chhe exxits kare chhe 
+ apde teni ek cpy php ma banavine check kariye chiye ke su lfi ahiya kaam kare chee ke nahi
+  bass hu aje thaki gayo ajee hu atluj kari sakyo
+  </rich_text>
+  </node>
+</cherrytree>
