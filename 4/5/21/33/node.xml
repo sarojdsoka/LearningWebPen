@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cherrytree>
-  <node unique_id="33" master_id="0" name="PHP filtering" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1751725283" ts_lastsave="1751726221">
+  <node unique_id="33" master_id="0" name="PHP filtering" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1751725283" ts_lastsave="1751881940">
     <rich_text>
 </rich_text>
     <rich_text scale="h2" weight="heavy">Kya problem hoti hai normal LFI me?</rich_text>
@@ -24,10 +24,132 @@ Agar tu </rich_text>
     <rich_text> source code dekhna bahut important hota hai:
 ◇ Passwords, database details, hidden features, file names — sab mil sakta hai source code me
 
-
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
 aa vastu ma mai ee vastu samji ke apde ek php no command run karaviye chhe je url thi php file apde server ma banaviye chhe ane ee file mai apde apdo payod add kari ne php file ne url thi server na command run karavi sakiye ha barober mai aa vastu chhe
 
 ana pachi apde fuzzing karsu ke server ma apde php file ne fuzz karsu jethi php na command apde run kari sakiye sayad tak aaa vastu samjvani 
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+  
+  
+  mane aa badhu samj na padva ne lidh emai internet par search karyu ke aa vastu keva su mange chhe to pachi mai youtube ma the cyberexpert no video joyo ane mane ghani badhi vastu oo mali 
+  
+  
+  jema ek vastu chhe </rich_text>
+    <rich_text weight="heavy">PHP Wrapper</rich_text>
+    <rich_text> aa vastu maare pela sikhvani hati pan htb ma aa module pachi hati 
+  </rich_text>
+    <rich_text link="webs https://www.php.net/manual/en/wrappers.php" weight="heavy">https://www.php.net/manual/en/wrappers.php</rich_text>
+    <rich_text>
+  
+  atlabadha php wraper hoi je apdde use kari ne lfi ne exe kari sakiye 
+  • </rich_text>
+    <rich_text link="webs https://www.php.net/manual/en/wrappers.file.php">file://</rich_text>
+    <rich_text> — Accessing local filesystem
+• </rich_text>
+    <rich_text link="webs https://www.php.net/manual/en/wrappers.http.php">http://</rich_text>
+    <rich_text> — Accessing HTTP(s) URLs
+• </rich_text>
+    <rich_text link="webs https://www.php.net/manual/en/wrappers.ftp.php">ftp://</rich_text>
+    <rich_text> — Accessing FTP(s) URLs
+• </rich_text>
+    <rich_text link="webs https://www.php.net/manual/en/wrappers.php.php">php://</rich_text>
+    <rich_text> — Accessing various I/O streams
+• </rich_text>
+    <rich_text link="webs https://www.php.net/manual/en/wrappers.compression.php">zlib://</rich_text>
+    <rich_text> — Compression Streams
+• </rich_text>
+    <rich_text link="webs https://www.php.net/manual/en/wrappers.data.php">data://</rich_text>
+    <rich_text> — Data (RFC 2397)
+• </rich_text>
+    <rich_text link="webs https://www.php.net/manual/en/wrappers.glob.php">glob://</rich_text>
+    <rich_text> — Find pathnames matching pattern
+• </rich_text>
+    <rich_text link="webs https://www.php.net/manual/en/wrappers.phar.php">phar://</rich_text>
+    <rich_text> — PHP Archive
+• </rich_text>
+    <rich_text link="webs https://www.php.net/manual/en/wrappers.ssh2.php">ssh2://</rich_text>
+    <rich_text> — Secure Shell 2
+• </rich_text>
+    <rich_text link="webs https://www.php.net/manual/en/wrappers.rar.php">rar://</rich_text>
+    <rich_text> — RAR
+• </rich_text>
+    <rich_text link="webs https://www.php.net/manual/en/wrappers.audio.php">ogg://</rich_text>
+    <rich_text> — Audio streams
+• </rich_text>
+    <rich_text link="webs https://www.php.net/manual/en/wrappers.expect.php">expect://</rich_text>
+    <rich_text> — Process Interaction Streams
+
+
+ana vise vadhu janva maate uper ni website check  karvi ane ha ama ek vastu janva jevi chhe ee chhe 
+
+</rich_text>
+    <rich_text weight="heavy">php.ini</rich_text>
+    <rich_text>
+ama ek configuration aave ee ma be vastu hoi 
+
+ek to hoi 
+</rich_text>
+    <rich_text weight="heavy">allow_url_include=On </rich_text>
+    <rich_text>
+
+aa vastu ma php wraper ni setting by default on hoi chhe ane ama apde lagbhag badhaj php wraper no use kari sakiye chiye jo koi case maa aaa vastu </rich_text>
+    <rich_text weight="heavy">off</rich_text>
+    <rich_text> hoi to te</rich_text>
+    <rich_text weight="heavy"> file http ftp ssh</rich_text>
+    <rich_text> jeva wraper j band thai bija koi band thatu nathi 
+
+chhe jo aa case ubho thay to check karvu ke </rich_text>
+    <rich_text weight="heavy">php data zlib zip </rich_text>
+    <rich_text>jeva wraper kaam kare chhe ke nahi ane aaa vastu ne jo disable karvi hoi to </rich_text>
+    <rich_text weight="heavy">php.ini</rich_text>
+    <rich_text> 
+</rich_text>
+    <rich_text weight="heavy">php_wrapper=Off</rich_text>
+    <rich_text> hovu jove jo aa na hoi to apde possible chhe lfi ne exe kari sakiye
+
+ane uper je filter chhe aa php nu ek keyword chhe ane ene use </rich_text>
+    <rich_text weight="heavy">I/O</rich_text>
+    <rich_text> ne controll karva thai chhe 
+
+
+ane haji ek vastu je mai the cyber exepert thi sikhi ee aa chhe ke LFI ane Directory Path travalsn bane alag vastu chhe
+
+LFI ma Code ni andar 
+</rich_text>
+    <rich_text weight="heavy">include()</rich_text>
+    <rich_text> no use kari ne apde koi pan file ne read athva write kari ne exe kari sakiye ane biji paraf
+
+Diractory Travelson ma 
+</rich_text>
+    <rich_text weight="heavy">open()</rich_text>
+    <rich_text> no use karine apde apde koi pan diactory ne open kari sakiye 
+
+aa vastu no main differnce chhe </rich_text>
+    <rich_text weight="heavy">LFI ane Direcotry Travelsion</rich_text>
+    <rich_text> ma
+ 
+ 
+ Ane Lfi mai INlcude no khub j moto role chhe apde ee target maani ne chaleiye chhe jema apde</rich_text>
+    <rich_text weight="heavy"> include()</rich_text>
+    <rich_text> sathe game ramiye chhe je pan code lakhavano chhe ee badho include ni andarj exe thase 
+ apde koi pan </rich_text>
+    <rich_text weight="heavy">php code</rich_text>
+    <rich_text> lakhiye te sidhu j exe thase ane tenu output apdne web na behaviour thi j khabaar padse apde kaato ina output ne php sivay na</rich_text>
+    <rich_text weight="heavy"> code ma translate kari ne apde tene base64 kato bija koi ma convert</rich_text>
+    <rich_text> kari ne apde webpage par show karavu padse ane aaa aa vastu apde file upload vul thi pan kari sakiye apde khali ek koi pan file na </rich_text>
+    <rich_text weight="heavy">code</rich_text>
+    <rich_text> ni andar apde php no code add kari ne upload kari devani rehse 
+ aa php no code apde game tya add kari asskiye  chiye ane haa aa vastu ne apde rce sudhi lay jay sakiye karn ke jova jaiye t apde ek command ne server par run karavi ne exe kariye chhe jo aa vastu mali jay to </rich_text>
+    <rich_text weight="heavy">rce </rich_text>
+    <rich_text>possible chhe aaj na addha divas ma mai atlu sikhi lidhu have hu lagbhag ane badhi lab karva jaav chuu
+  
+
+
 
 
 </rich_text>
