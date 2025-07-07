@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cherrytree>
-  <node unique_id="34" master_id="0" name="chelenge" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1751726221" ts_lastsave="1751729462">
+  <node unique_id="34" master_id="0" name="chelenge" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1751726221" ts_lastsave="1751807990">
     <rich_text>mai ano chelenge solve karva ni try kari an mai 
 
 1st payload run karyo 
@@ -29,6 +29,6 @@ jya filter no matlb mane nathi khabar pn read no matlabke read karvu =⇒ jete f
  http;//x.x.x.x//index.php?object=php://filter/read=convert.base64-encode/resource=[jetefile] ama dhyan rakhvu jete file mai eej file avi jove je server ma running chhe exxits kare chhe 
  apde teni ek cpy php ma banavine check kariye chiye ke su lfi ahiya kaam kare chee ke nahi
   bass hu aje thaki gayo ajee hu atluj kari sakyo
-  </rich_text>
+	</rich_text>
   </node>
 </cherrytree>
