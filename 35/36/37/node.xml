@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node unique_id="37" master_id="0" name="nmap" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1751965072" ts_lastsave="1751966757">
+    <rich_text scale="h1" weight="heavy">Nmap</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cba6f7" weight="heavy">󰛓 </rich_text>
+    <rich_text>❯ nmap </rich_text>
+    <rich_text foreground="#18b2b2">-Pn -A 10.10.11.62</rich_text>
+    <rich_text> 
+Starting Nmap 7.97 ( https://nmap.org ) at 2025-07-08 14:25 +0530 
+Nmap scan report for code.htb (10.10.11.62) 
+Host is up (1.1s latency). 
+Not shown: 998 closed tcp ports (conn-refused) 
+PORT     STATE SERVICE VERSION 
+22/tcp   open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.12 (Ubuntu Linux; protocol 2.0) 
+| ssh-hostkey: 
+|   3072 b5:b9:7c:c4:50:32:95:bc:c2:65:17:df:51:a2:7a:bd (RSA) 
+|   256 94:b5:25:54:9b:68:af:be:40:e1:1d:a8:6b:85:0d:01 (ECDSA) 
+|_  256 12:8c:dc:97:ad:86:00:b4:88:e2:29:cf:69:b5:65:96 (ED25519) 
+5000/tcp open  http    Gunicorn 20.0.4 
+|_http-server-header: gunicorn/20.0.4 
+|_http-title: Python Code Editor 
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel 
+ 
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+</rich_text>
+  </node>
+</cherrytree>
